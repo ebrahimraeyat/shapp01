@@ -12,7 +12,7 @@ class mainFrame(Frame):
     def initUI(self):
         self.master.title('App')
         self.master.resizable(0,0)
-        self.lb01 = Label(self, text='Developed by: Shahram Shaygani')
+        self.lb01 = Label(self, text='Developed by Shahram Shaygani under GNU GPLv3')
         self.lb01.grid(row=0, column=0, padx=3, pady=3)
         self.lb02 = Label(self, text='R top')
         self.lb02.grid(row=1, column=0, padx=3, pady=3)
